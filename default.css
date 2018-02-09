@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.token.selector{
+    color: black;
+}
+.token.property{
+    color: black;
+}
+.token.function{
+    color: black;
+}
+#code-wrapper{
+    position: fixed;
+    left: 0; 
+}
+#code{
+    overflow: hidden;
+}
+#paper{
+    position: fixed;
+    right: 0;
+}
+#paper > .content{
+    overflow: hidden;
+}
+#paper > .html {
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    overflow: auto;
+}
+
+
+
